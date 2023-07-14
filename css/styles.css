@@ -211,7 +211,9 @@ label.error {display:block; margin-top:5px; font-size:14px; line-height:18px; te
 .tariffs-item-who {max-width:300px; font-weight:500}
 .tariffs-item-price {display:flex; align-items:center; margin:30px 0 0 0}
 .tariffs-item-price-from {font-weight:500; font-size:12px; line-height:19px}
-.tariffs-item-price-value {margin:0 0 0 16px; width:100%; font-weight:900; font-size:42px; line-height:55px; letter-spacing:0.03em; color:#0000FF}
+.tariffs-item-price-value {margin:0 0 0 16px; display:flex; align-items:center; width:100%; font-weight:900; font-size:42px; line-height:55px; letter-spacing:0.03em; color:#0000FF}
+.tariffs-item-price-value.discount {color:#FF006B}
+.tariffs-item-price-value strong {margin:0 0 0 16px; color:#565C6A; font-weight:normal; font-size:16px; line-height:21px; letter-spacing:0.03em; white-space:nowrap; text-decoration:line-through}
 .tariffs-item-price-period {white-space:nowrap; font-weight:600; color:#000000}
 .tariffs-item-options {margin:30px 0 0 0; border-bottom:1px solid #EDEDED; font-weight:500; color:#000000}
 .tariffs-item-option {border-top:1px solid #EDEDED; position:relative; padding:10px 0 10px 39px}
@@ -244,7 +246,8 @@ label.error {display:block; margin-top:5px; font-size:14px; line-height:18px; te
     .tariffs-item-inner {display:block; width:auto; padding:40px 20px}
     .tariffs-item.optimal .tariffs-item-inner {padding:39px 19px}
     .tariffs-item-title {font-size:30px; line-height:39px}
-    .tariffs-item-price-value {font-size:24px; line-height:31px}
+    .tariffs-item-price-value {display:block; font-size:24px; line-height:31px}
+    .tariffs-item-price-value strong {display:block; margin:-2px 0 -17px 0; font-size:12px; line-height:19px; font-weight:500}
     .tariffs-item-price-period {font-size:14px; line-height:22px}
     .tariffs-item-option {padding:10px 0 10px 29px}
     .tariffs-item-option svg {left:-5px; top:5px}
